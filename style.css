@@ -8,7 +8,7 @@
 body
 {
     min-height: 100vh;
-    background-color: #73CAF0;
+    background-color: #004270;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -16,8 +16,8 @@ body
 }
 
 nav{
-    background-color: white;
-    box-shadow: 3px 3px 5px  rgba(0, 0, 0, 0.1);
+    background-color: #004270;
+   
 }
 
 nav ul
@@ -40,13 +40,10 @@ nav a{
     text-decoration: none;
     display:flex;
     align-items: center;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
-nav a:hover
-{
-    background-color: aliceblue;
-}
+
 
 nav li:first-child
 {
