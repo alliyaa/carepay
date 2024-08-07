@@ -287,8 +287,22 @@ nav li:first-child
 
     .banner-button {
         font-size: 1em;
-        padding: 0.5em 1em;
+        padding: 2rem 2em;
     }
+    
+.banner-image {
+    width: 100vw;
+    height: 100vh;
+    height: auto;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 
     .step, .service-item, .benefit-item {
         padding: 2rem;
@@ -303,29 +317,3 @@ nav li:first-child
     }
 }
 
-@media (max-width: 480px) {
-    .banner h1 {
-        font-size: 1.5em;
-    }
-
-    .banner p {
-        font-size: 1em;
-    }
-
-    .banner-button {
-        font-size: 0.9em;
-        padding: 0.5em 0.75em;
-    }
-
-    .step, .service-item, .benefit-item {
-        padding: 1rem;
-    }
-
-    .step h2, .service-item h2, .benefit-item h2 {
-        font-size: 1em;
-    }
-
-    .step p, .service-item p, .benefit-item p {
-        font-size: 0.8em;
-    }
-}
