@@ -80,11 +80,181 @@ nav li:first-child
     width:100%;
 }
 
-/* .menu-button
+.menu-button
 {
     display:none;
-} */
+}
 
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.banner-image {
+    width: 100vw;
+    height: 100vh;
+    height: auto;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner h1 {
+    font-size: 3em;
+    margin: 0.5em 0;
+    color:white;
+}
+
+.banner p {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+    color:white;
+}
+
+.banner-button {
+    display: inline-block;
+    padding: 0.75em 1.5em;
+    font-size: 1.25em;
+    color: white;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.banner-button:hover {
+    background-color: #0056b3;
+}
+
+
+.how-it-works {
+    padding: 2em;
+    text-align: center;
+    background-color: #ffff;
+}
+
+.how-it-works h1 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    color:#004270
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.step {
+    background-color:#004270;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5rem;
+    margin: 1em 0;
+    width: 500px;
+    height:100px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color:#ffff;
+}
+
+.step h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.step p {
+    font-size: 1em;
+    margin: 0;
+}
+
+.services {
+    padding: 2em;
+    text-align: center;
+    background-color: #004270;
+  
+}
+
+.services h1 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    color:white;
+}
+
+.service-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5rem;
+    width: 500px;
+    height:100px;
+    margin: 1em 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.service-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.service-item p {
+    font-size: 1em;
+    margin: 0;
+}
+
+.why-choose-care-pay {
+    padding: 2em;
+    text-align: center;
+    background-color: #ffdf2e;
+}
+
+.why-choose-care-pay h1 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    color:#067516;
+}
+
+.benefits-list {
+ 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.benefit-item {
+    background-color: #067516;
+    border: 1px solid #067516;
+    color:white;
+    border-radius: 8px;
+    padding: 5rem;
+    width: 500px;
+    height:100px;
+    margin: 1em 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.benefit-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.benefit-item p {
+    font-size: 1em;
+    margin: 0;
+}
 
 @media(max-width:800px)
 {
@@ -103,5 +273,59 @@ nav li:first-child
 {
     .sidebar{
         width:100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner h1 {
+        font-size: 2em;
+    }
+
+    .banner p {
+        font-size: 1.2em;
+    }
+
+    .banner-button {
+        font-size: 1em;
+        padding: 0.5em 1em;
+    }
+
+    .step, .service-item, .benefit-item {
+        padding: 2rem;
+    }
+
+    .step h2, .service-item h2, .benefit-item h2 {
+        font-size: 1.2em;
+    }
+
+    .step p, .service-item p, .benefit-item p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner h1 {
+        font-size: 1.5em;
+    }
+
+    .banner p {
+        font-size: 1em;
+    }
+
+    .banner-button {
+        font-size: 0.9em;
+        padding: 0.5em 0.75em;
+    }
+
+    .step, .service-item, .benefit-item {
+        padding: 1rem;
+    }
+
+    .step h2, .service-item h2, .benefit-item h2 {
+        font-size: 1em;
+    }
+
+    .step p, .service-item p, .benefit-item p {
+        font-size: 0.8em;
     }
 }
