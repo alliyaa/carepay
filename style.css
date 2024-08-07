@@ -279,15 +279,17 @@ nav li:first-child
 @media (max-width: 768px) {
     .banner h1 {
         font-size: 2em;
+        width:100px;
     }
 
     .banner p {
         font-size: 1.2em;
+        width:100px;
     }
 
     .banner-button {
         font-size: 1em;
-        padding: 2rem 2em;
+        padding: 1.5rem 1.5em;
     }
     
 .banner-image {
@@ -305,7 +307,7 @@ nav li:first-child
 
 
     .step, .service-item, .benefit-item {
-        padding: 1,5rem;
+        padding: 1rem;
     }
 
     .step h2, .service-item h2, .benefit-item h2 {
