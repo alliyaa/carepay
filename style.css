@@ -293,7 +293,7 @@ nav li:first-child
 .banner-image {
     width: 100vw;
     height: 100vh;
-    height: auto;
+    
 }
 
 .banner-content {
@@ -305,11 +305,11 @@ nav li:first-child
 
 
     .step, .service-item, .benefit-item {
-        padding: 2rem;
+        padding: 1,5rem;
     }
 
     .step h2, .service-item h2, .benefit-item h2 {
-        font-size: 1.2em;
+        font-size: 1rem;
     }
 
     .step p, .service-item p, .benefit-item p {
