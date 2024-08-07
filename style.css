@@ -89,13 +89,15 @@ nav li:first-child
 .banner {
     position: relative;
     text-align: center;
-    color: black;
+    width:100vw;
+    height:100vh;
+   
 }
 
 .banner-image {
     width: 100vw;
     height: 100vh;
-    height: auto;
+   height:auto;
 }
 
 .banner-content {
@@ -108,21 +110,22 @@ nav li:first-child
 .banner h1 {
     font-size: 3em;
     margin: 0.5em 0;
-    color:white;
+    color:#067516;
 }
 
 .banner p {
     font-size: 1.5em;
     margin: 0.5em 0;
-    color:white;
+    color:#067516;
 }
 
 .banner-button {
     display: inline-block;
     padding: 0.75em 1.5em;
     font-size: 1.25em;
+    margin-top: 2rem;
     color: white;
-    background-color: #007BFF;
+    background-color:#004270;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
@@ -176,14 +179,14 @@ nav li:first-child
 .services {
     padding: 2em;
     text-align: center;
-    background-color: #004270;
+    background-color: #ffff;
   
 }
 
 .services h1 {
     font-size: 2.5em;
     margin-bottom: 1em;
-    color:white;
+    color: #067516;
 }
 
 .service-list {
@@ -193,8 +196,8 @@ nav li:first-child
 }
 
 .service-item {
-    background-color: white;
-    border: 1px solid #ddd;
+    background-color: #067516;;
+    border: 1px solid #067516;;
     border-radius: 8px;
     padding: 5rem;
     width: 500px;
@@ -207,23 +210,25 @@ nav li:first-child
 .service-item h2 {
     font-size: 1.5em;
     margin-bottom: 0.5em;
+    color:white
 }
 
 .service-item p {
     font-size: 1em;
     margin: 0;
+    color:white;
 }
 
 .why-choose-care-pay {
     padding: 2em;
     text-align: center;
-    background-color: #ffdf2e;
+    background-color: white;
 }
 
 .why-choose-care-pay h1 {
     font-size: 2.5em;
     margin-bottom: 1em;
-    color:#067516;
+    color: #004270;
 }
 
 .benefits-list {
@@ -235,7 +240,7 @@ nav li:first-child
 }
 
 .benefit-item {
-    background-color: #067516;
+    background-color: #004270;
     border: 1px solid #067516;
     color:white;
     border-radius: 8px;
