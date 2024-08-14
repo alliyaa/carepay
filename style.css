@@ -538,7 +538,10 @@ img
 
 
     .step, .service-item, .benefit-item {
-        padding: 3rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        padding-left: 0;
+        padding-right: 0;
         max-width: 360px;
     }
 
