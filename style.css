@@ -554,5 +554,31 @@ img
         font-size: 0.9em;
         max-width: 350px;
     }
+
+    .feature-item {
+      
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 1rem;
+     
+    }
+    
+   
+    
+    .feature-item1 {
+  
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    
+    
+    
+    
+    
+    .feature-item2 {
+       margin-left: 0;
+       margin-right: 0;
+    }
 }
 
