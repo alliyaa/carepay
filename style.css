@@ -658,9 +658,11 @@ img
     .banner-img {
        
         max-width: 90%;
+        margin-left: 0;
         height: auto;
+        margin-top: -5rem;
         object-fit: cover;
-        margin-bottom: 10rem;
+        margin-bottom: 15rem;
        
     }
 
