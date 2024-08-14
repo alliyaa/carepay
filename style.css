@@ -605,7 +605,7 @@ img
 }
 
 .banner-img {
-    flex: 1;
+   
     margin-left: 3rem;
     max-width: 50%;
     height: auto;
@@ -656,9 +656,10 @@ img
     }
 
     .banner-img {
-        width:30rem;
-        height:auto;
-        margin-bottom: 5rem;
+       
+        max-width: 80%;
+        height: auto;
+        object-fit: cover;
        
     }
 
