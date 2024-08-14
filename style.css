@@ -656,7 +656,7 @@ img
     }
 
     .banner-img {
-        width:300px;
+        width:30rem;
         height:auto;
         margin-bottom: 5rem;
        
@@ -675,7 +675,7 @@ img
     }
 
     .banner-button {
-        font-size: 1em;
+        font-size: 1rem;
         width: 200px;
         
     }
