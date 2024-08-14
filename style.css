@@ -544,6 +544,12 @@ img
         padding-right: 0;
         max-width: 360px;
         text-align: center;
+        margin: 0 auto; /* Horizontally center the container */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content */
+    align-items: center; /* Center the content horizontally */
+    height: 100%; /* Ensure the container height expands to its parent */
     }
 
     .step h2, .service-item h2, .benefit-item h2 {
