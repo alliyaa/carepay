@@ -511,32 +511,29 @@ img
 }
 
 @media (max-width: 768px) {
+    .banner-content {
+        margin-left: 2rem;
+        margin-top: 8rem;
+    }
+
     .banner h1 {
-        font-size: 2em;
-        width:380px;
+        font-size: 2.5em;
     }
 
     .banner p {
         font-size: 1.2em;
-        width:380px;
+        max-width: 90%;
     }
 
     .banner-button {
         font-size: 1em;
-        padding: 1.5rem 1.5em;
+        width: 200px;
     }
-    
-.banner-image {
-    width: 100vw;
-    height: 100vh;
-    
-}
 
-.banner-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.banner{
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 
@@ -559,7 +556,7 @@ img
       
         margin-left: 0;
         margin-right: 0;
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
      
     }
     
@@ -569,7 +566,7 @@ img
   
         margin-left: 0;
         margin-right: 0;
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
     }
     
     
@@ -579,6 +576,102 @@ img
     .feature-item2 {
        margin-left: 0;
        margin-right: 0;
+    }
+}
+
+
+
+
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.banner-content {
+   
+    margin-right: 2rem;
+    color: #067516;
+    float:left;
+   
+  
+ 
+}
+
+.banner-img {
+    flex: 1;
+    margin-left: 3rem;
+    max-width: 50%;
+    height: auto;
+    float:right;
+    object-fit: cover;
+}
+
+.banner h1 {
+    font-size: 3em;
+    margin: 0.5em 0;
+    color: #067516;
+}
+
+.banner p {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+    color: #067516;
+}
+
+.banner-button {
+    display: inline-block;
+    padding: 0.75em 1.5em;
+    font-size: 1.25em;
+    margin-top: 2rem;
+    color: white;
+    background-color: #1c0a52;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: 250px;
+}
+
+.banner-button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .banner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner-content {
+        margin: 0;
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .banner-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .banner h1 {
+        font-size: 2.5em;
+    }
+
+    .banner p {
+        font-size: 1.2em;
+        max-width: 100%;
+    }
+
+    .banner-button {
+        font-size: 1em;
+        width: 200px;
     }
 }
 
