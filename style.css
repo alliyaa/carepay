@@ -550,6 +550,7 @@ img
     justify-content: center; /* Vertically center the content */
     align-items: center; /* Center the content horizontally */
     height: 100%; /* Ensure the container height expands to its parent */
+    margin-bottom: 2rem;
     }
 
     .step h2, .service-item h2, .benefit-item h2 {
