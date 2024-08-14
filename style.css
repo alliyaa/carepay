@@ -652,14 +652,14 @@ img
     .banner-content {
         margin: 0;
         max-width: 85%;
-        margin-bottom: 2rem;
-        margin-top: 10rem;
+        margin-bottom: 5rem;
+        margin-top: 15rem;
     }
 
     .banner-img {
         max-width: 85%;
         margin-bottom: 5rem;
-        height: auto;
+       
     }
 
     .banner h1 {
@@ -668,7 +668,7 @@ img
 
     .banner p {
         font-size: 1.2em;
-        max-width: 85%;
+        max-width: 100%;
     }
 
     .banner-button {
