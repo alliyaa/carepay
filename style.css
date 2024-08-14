@@ -662,7 +662,8 @@ img
         height: auto;
         margin: auto;
         object-fit: cover;
-        margin-bottom: 15rem;
+        margin-top: 10rem;
+        margin-bottom: 10rem;
        
     }
 
