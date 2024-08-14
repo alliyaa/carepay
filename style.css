@@ -314,7 +314,7 @@ img
     border-radius: 5%;
     padding:2rem;
     margin-left: 1rem;
-   
+    max-width: 500px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -335,6 +335,7 @@ img
     background: #ffffff;
     border-radius: 5%;
     padding:2rem;
+    max-width: 500px;
     margin-right: 1rem;
     margin-left: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
@@ -358,6 +359,7 @@ img
     height: 100%;            /* Ensure the div takes up full height */
     background: #ffffff;
     border-radius: 5%;
+    max-width: 500px;
     padding:2rem;
     margin-right: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
