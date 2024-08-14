@@ -543,17 +543,20 @@ img
         padding-left: 0;
         padding-right: 0;
         max-width: 360px;
+        text-align: center;
     }
 
     .step h2, .service-item h2, .benefit-item h2 {
         font-size: 1rem;
         max-width: 300px;
         margin-bottom: 1rem;
+        text-align: center;
     }
 
     .step p, .service-item p, .benefit-item p {
         font-size: 0.9em;
         max-width: 300px;
+        text-align: center;
     }
 
     .feature-item {
