@@ -325,10 +325,9 @@ img
     text-align: center;
     height: 100%;            /* Ensure the div takes up full height */
     background: #ffffff;
-    padding:2rem;
     border-radius: 5%;
-    margin-left: 0.5rem;
-    margin-right: 3rem;
+    padding:2rem;
+    margin-right: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
