@@ -660,9 +660,7 @@ img
         max-width: 90%;
         margin-left: 0;
         height: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        margin: auto;
         object-fit: cover;
         margin-bottom: 15rem;
        
