@@ -538,18 +538,19 @@ img
 
 
     .step, .service-item, .benefit-item {
-        padding: 1rem;
-        max-width: 380px;
+        padding: 3rem;
+        max-width: 360px;
     }
 
     .step h2, .service-item h2, .benefit-item h2 {
         font-size: 1rem;
-        max-width: 350px;
+        max-width: 300px;
+        margin-bottom: 1rem;
     }
 
     .step p, .service-item p, .benefit-item p {
         font-size: 0.9em;
-        max-width: 350px;
+        max-width: 300px;
     }
 
     .feature-item {
