@@ -657,9 +657,10 @@ img
 
     .banner-img {
        
-        max-width: 80%;
+        max-width: 90%;
         height: auto;
         object-fit: cover;
+        margin-bottom: 10rem;
        
     }
 
